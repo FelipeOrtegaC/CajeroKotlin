@@ -10,23 +10,36 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.FirstTest"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
             android:exported="true">
+=======
+        android:theme="@style/Theme.Parcial"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Parcial">
+>>>>>>> c3994e77cb4fbc9c2719f2a4b5f73a6aef91ed2b
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".ahorroActivity">
         </activity>
         <activity android:name=".retiroActivity">
         </activity>
         <activity android:name=".historialActivity">
         </activity>
+=======
+>>>>>>> c3994e77cb4fbc9c2719f2a4b5f73a6aef91ed2b
     </application>
 
 </manifest>
